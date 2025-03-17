@@ -1,0 +1,13 @@
+{
+  "experimentalTernaries": false,
+  "experimentalOperatorPosition": "start",
+  "semi": false,
+  "singleQuote": true,
+  "quoteProps": "consistent",
+  "jsxSingleQuote": true,
+  "trailingComma": "all",
+  "bracketSpacing": true,
+  "objectWrap": "preserve",
+  "bracketSameLine": false,
+  "arrowParens": "always"
+}
