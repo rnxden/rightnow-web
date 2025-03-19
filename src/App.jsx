@@ -42,6 +42,11 @@ function App() {
             {todos.map((todo) => (
               <div className='list-item'>{todo}</div>
             ))}
+            <div className='list-end'>
+              {todos.length > 0
+                ? `You have ${todos.length} thing${todos.length === 1 ? '' : 's'} to do!`
+                : 'Nothing to do...'}
+            </div>
           </div>
         </div>
       </div>

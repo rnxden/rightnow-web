@@ -100,3 +100,10 @@
 .list-item:hover::before {
   background: #ddd;
 }
+
+.list-end {
+  margin-top: 2rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  color: #777;
+}
