@@ -2,7 +2,7 @@ import { useState } from 'react'
 import './App.css'
 
 function App() {
-  let [todos, setTodos] = useState(['Hello, world!'])
+  let [todos, setTodos] = useState()
   let [todoInput, setTodoInput] = useState('')
 
   let addTodo = () => {
