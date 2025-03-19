@@ -27,6 +27,41 @@
   color: #fff;
 }
 
+.prompt {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  gap: 5px;
+}
+
+.prompt-input {
+  flex-grow: 1;
+  height: 2.5rem;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  background: #888;
+  color: #ddd;
+}
+
+.prompt-input::placeholder {
+  color: #bbb;
+}
+
+.prompt-icon {
+  height: 1.25rem;
+}
+
+.prompt-button {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background: #999;
+}
+
 .list {
   flex-grow: 1;
   overflow-y: scroll;
