@@ -53,5 +53,15 @@
   width: 0.25rem;
   height: 100%;
   background: #aaa;
-  border-radius: 1rem;
+  border-radius: 0.125rem;
+}
+
+.list-item:hover {
+  border-radius: 0.125rem;
+  background: #ffffff18;
+  color: #aaa;
+}
+
+.list-item:hover::before {
+  background: #ddd;
 }
