@@ -1,9 +1,18 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './App.css'
 
 function App() {
-  let [todos, setTodos] = useState([])
+  let [todos, setTodos] = useState(() => {
+    let todosData = localStorage.getItem('todos')
+    let todos = JSON.parse(todosData) ?? []
+    return todos
+  })
   let [todoInput, setTodoInput] = useState('')
+
+  useEffect(() => {
+    let todosData = JSON.stringify(todos)
+    localStorage.setItem('todos', todosData)
+  }, [todos])
 
   let addTodo = () => {
     if (todoInput.trim() === '') return
