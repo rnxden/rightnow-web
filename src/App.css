@@ -77,6 +77,7 @@
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   transition: linear 30ms;
 }
 
@@ -99,6 +100,24 @@
 
 .list-item:hover::before {
   background: #ddd;
+}
+
+.list-item-text {
+  flex-grow: 1;
+}
+
+.list-item-actions {
+  padding-right: 0.5rem;
+}
+
+.list-item-action-delete {
+  background: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+.list-item-action-delete svg {
+  height: 1rem;
 }
 
 .list-end {
