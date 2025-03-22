@@ -1,0 +1,12 @@
+.list-items {
+  flex-grow: 1;
+  flex-shrink: 1;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  border: 2px solid #888;
+  border-radius: 4px;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}

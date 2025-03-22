@@ -1,0 +1,47 @@
+.list-input {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 5px;
+  border: 2px solid #888;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+}
+
+.list-input-prompt {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+.list-input-prompt > input {
+  width: 100%;
+  background: transparent;
+  color: #aaa;
+  border: 0;
+  outline: 0;
+  font-family: inherit;
+  font-size: 1.1rem;
+}
+
+.list-input-prompt > input::placeholder {
+  color: #666;
+}
+
+.list-input-button > button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: transparent;
+  padding: 1px;
+  border: 2px solid #888;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.list-input-button > button > svg {
+  height: 1.3rem;
+  aspect-ratio: 1 / 1;
+}

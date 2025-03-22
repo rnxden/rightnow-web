@@ -1,0 +1,16 @@
+.header {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.header-subtitle {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #aaa;
+}
+
+.header-title {
+  font-size: 3rem;
+  font-weight: 800;
+  color: #fff;
+}
