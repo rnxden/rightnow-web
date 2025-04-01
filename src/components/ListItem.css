@@ -14,7 +14,7 @@
 
 .list-item-completed-box {
   appearance: none;
-  width: 1.1rem;
+  min-width: 1.1rem;
   height: 1.1rem;
   border: 2px solid #888;
   border-radius: 2px;
@@ -34,7 +34,7 @@
 
 .list-item-delete-button {
   appearance: none;
-  width: 1.1rem;
+  min-width: 1.1rem;
   height: 1.1rem;
   border: none;
   background: transparent;
