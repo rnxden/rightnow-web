@@ -9,12 +9,3 @@ body {
   background: #000;
   color: #888;
 }
-
-html,
-body {
-  height: 100%;
-}
-
-#root {
-  height: 100%;
-}
