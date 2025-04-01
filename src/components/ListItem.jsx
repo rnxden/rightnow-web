@@ -13,7 +13,7 @@ function ListItem({ content }) {
     <div className='list-item'>
       <input className='list-item-completed-box' type='checkbox' />
       <span className='list-item-content'>{content}</span>
-      <button className='list-item-delete-btn'>
+      <button className='list-item-delete-button'>
         <FaXMark />
       </button>
     </div>
