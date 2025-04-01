@@ -11,14 +11,10 @@ function FaPlus() {
 function ListInput() {
   return (
     <div className='list-input'>
-      <div className='list-input-prompt'>
-        <input type='text' placeholder='Add a task...' />
-      </div>
-      <div className='list-input-button'>
-        <button>
-          <FaPlus />
-        </button>
-      </div>
+      <input className='list-input-prompt' type='text' placeholder='Add a task...' />
+      <button className='list-input-button'>
+        <FaPlus />
+      </button>
     </div>
   )
 }
